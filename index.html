@@ -4,9 +4,88 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FIRST ACTIVITY</title>
+	<title> ACTIVITY No. 1</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Tangerine:wght@300;400&display=swap");
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+        .portfolio-info{
+            
+            background-color: gray;
+            color: yellow;
+            height: 40px;
+            text-align: center;
+            width: 250px;
+            margin-bottom: 10px; 
+            border-radius: 20%; 
+        }
+        .text{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+
+
+        }
+        
+
+        .portfolio-container {
+            display: grid;
+            place-items: center;
+        }
+
+        .portfolio-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border:2px solid gray;
+        }
+
+        .portfolio-container .name {
+            margin-top: 10px;
+            font-size: 20px;
+            color:blue;
+        }
+        .details{
+            color:green;
+            font-size: 18px;
+
+        }
+        .gallery-info{
+            background-color: gray;
+            color: yellow;
+            height: 40px;
+            text-align: center;
+            width: 250px;
+            margin-bottom: 10px;
+            margin-top: 40px; 
+            border-radius: 20%; 
+        }
+    </style>
+	
 </head>
 <body>
+    <center>
+        <div class="portfolio-info"><h2 class="text">MY PORTFOLIO</h2>
+        </center></div>
+        <div class="container">
+            <div class="portfolio-container">
+                <img src="beautiful.jpeg" 
+                    alt="userimg">
+                <div class="name">Shirly Emnas</div>
+                <div class="details">
+                    <ul style="list-style-type:square;">
+                        <li><b>Age: 19</b></li>
+                        <li><b>Gender: Female</b></li>
+                        <li><b>Course: Bachelor of Science in Information Technology</b></li>
+                        <li><b>Year Level: Second Year</b></li>
+                        <li><b>School: EVSU-CC</b></li>
+                        <li><b>Addess: Brgy. Roosevelt Barugo, Leyte</b></li>
+                    </ul>
+                </div>
+            </div>       
+        </div>
 
 </body>
 </html>
